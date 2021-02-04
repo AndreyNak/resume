@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(27, 28, 37);
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(21, 21, 26);
+    height: 100px;
+    display: flex;
+
+}
+
+
+.header__text {
+    color: rgb(175, 183, 255);
+    margin: auto;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+
+.description {
+    background-color: rgb(47, 49, 68);
+    width: 1000px;
+    margin: 200px auto;
+    padding: 20px;
+    
+}
+
+
+.description__title {
+    margin: auto  700px 30px;
+    color: rgb(231, 231, 231);
+    font-size: 60px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.description_text {
+    color: rgb(123, 117, 206);
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+}
+
+.photo {
+    width: 100px;
+    border-radius: 100px;
+
+    
+    
+    
+}
+.fig {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+
+}
+
+.d {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.name_surnaem {
+    font-size: 30px;
+    color: rgb(175, 183, 255);
+}
+
+
