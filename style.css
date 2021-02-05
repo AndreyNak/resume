@@ -49,6 +49,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+.age{
+    color: rgb(234, 240, 202);
+    font-family: 'Poppins', sans-serif;
+}
+
+.live{
+    color: rgb(234, 240, 202);
+    font-family: 'Poppins', sans-serif;
+}
+
 .content{
     margin-top: 70px;
     display: flex;
@@ -68,6 +78,9 @@ h1, h2, h3, h4, h5, h6 {
 .photo{
 width: 340px;
 padding: 0%;
+}
+.contacts{
+    margin-bottom: 35px;
 }
 
 .icon__vk{
@@ -104,7 +117,13 @@ padding: 0%;
     width: 40px;
 }
 
-
+.contant__title{
+    background-color: rgb(101, 98, 128);
+    color: rgb(218, 218, 218);
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 5px;
+}
  
 .about__title {
     background-color: rgb(101, 98, 128);
@@ -135,6 +154,18 @@ padding: 0%;
 .education__name{
     margin-left: 20px;
 }
+
+.spec{
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.data{
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+
 .education__title {
     background-color: rgb(101, 98, 128);
     color: rgb(218, 218, 218);
