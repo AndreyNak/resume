@@ -1,5 +1,6 @@
 body {
     background-color: rgb(27, 28, 37);
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -12,6 +13,16 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
+
+
+
+.container {
+    width: 700px;
+    margin: 100px auto;
+    
+    background-color: rgb(45, 46, 54);
+}
+
 
 .header {
     background-color: rgb(21, 21, 26);
@@ -30,54 +41,113 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.description {
-    background-color: rgb(47, 49, 68);
-    width: 1000px;
-    margin: 200px auto;
-    padding: 20px;
+.name{
+    color: rgb(234, 240, 202);
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
     
 }
 
 
-.description__title {
-    margin: auto  700px 30px;
-    color: rgb(231, 231, 231);
-    font-size: 60px;
-    font-family: 'Noto Sans KR', sans-serif;
-}
-
-.description_text {
-    color: rgb(123, 117, 206);
-    width: 600px;
-    margin: 0 auto;
-    text-align: center;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 18px;
-}
-
-.photo {
-    width: 100px;
-    border-radius: 100px;
-
-    
-    
-    
-}
-.fig {
-    margin-top: 20px;
-    text-align: center;
+.content{
+    margin-top: 70px;
     display: flex;
-
+    font-size: 26px;
+    color:rgb(234, 240, 202);
+    
 }
 
-.d {
-    margin: 0 auto;
-    justify-content: center;
+.block_1 {
+
+    padding: 0;
+    flex: 1;
+    border-right: 3px solid rgb(27, 13, 13);
+    
 }
 
-.name_surnaem {
-    font-size: 30px;
-    color: rgb(175, 183, 255);
+.photo{
+width: 340px;
+padding: 0%;
+}
+
+.icon__vk{
+    width: 40px;
+}
+.contact{
+    margin-top: 35px;
+    width: 335px;
+    font-size: 20px;
+}
+.vk {
+    display: flex;
+ 
+}
+
+.phone {
+    display: flex;
+}
+
+.mail{
+    display: flex;
+    
+}
+
+.icon__mail{
+    width: 40px;
+}
+.block_2{
+    font-size: 20px;
+    flex: 1;
+}
+
+.icon__phone {
+    width: 40px;
 }
 
 
+ 
+.about__title {
+    background-color: rgb(101, 98, 128);
+    color: rgb(218, 218, 218);
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 5px;
+    
+}
+
+
+.about_text{ 
+    margin-left: 5px;
+}
+
+
+.education_info{
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.education__icon{
+    width: 40px;
+    margin-left: 10px;
+}
+
+.education__name{
+    margin-left: 20px;
+}
+.education__title {
+    background-color: rgb(101, 98, 128);
+    color: rgb(218, 218, 218);
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+
+.skills__title{
+    background-color: rgb(101, 98, 128);
+    color: rgb(218, 218, 218);
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 5px;
+}
